@@ -1,0 +1,136 @@
+    /* Estilos adicionales para alinear los enlaces al centro */
+    .nav {
+        display: flex;
+        justify-content: center;
+    }
+    .nav-item {
+        margin-right: 15px; /* Espacio entre elementos de la barra de navegación */
+    }
+
+    .card{
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn-purple {
+        background-color: purple;
+        color: white;
+    }
+
+    .btn-purple:hover {
+        background-color: #6a1b9a;
+    }
+
+    .btn-purple:focus {
+        box-shadow: 0 0 0 0.25rem rgba(139, 0, 139, 0.5);
+    }
+
+    body {
+        /* background-color: rgb(243, 234, 242); */
+        background-image: url('./Archivos/fondo.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .card{
+        background-color: #be8cf0;   
+    }
+    #downloadButton{
+        background-color: #7c36a8;
+    }
+    #downloadButton:hover{
+        color: #6a1b9a;
+    }
+    .social-media a {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        background: transparent;
+        color: #d400ff;
+        border: 2px solid;
+        border-radius: 50%;
+        font-size: 20px;
+        text-decoration: none;
+        margin: 30px 15px 30px 0;
+        transition: .5s ease;
+    }
+    
+    .social-media a:hover {
+        color: #1f242d;
+        box-shadow: 0 0 20pxrgb(255, 0, 0);
+    }
+    .my-card {
+        margin-top: 20px; /* Puedes ajustar el valor según la separación deseada */
+    }
+
+    #carouselExampleCaptions {
+        background-color: #e3d5e7;
+    }
+    .carousel {
+        padding: 50px;
+    }
+
+    footer {
+        background-color: #be8cf0;
+        padding: 20px;
+    }
+
+    /* Estilos para la sección de habilidades */
+    .habilidades {
+        margin-top: 40px;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .habilidades h3 {
+        color: #7c36a8;
+    }
+
+    .habilidades ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .habilidades ul li {
+        margin-bottom: 10px;
+    }
+
+    .habilidades ul li::before {
+        content: "\2022"; /* Unicode para el símbolo de viñeta */
+        color: #7c36a8; /* Color de la viñeta */
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em; /* Mueve la viñeta al borde izquierdo del contenedor */
+    }
+
+    .habilidades ul li:last-child {
+        margin-bottom: 0; /* Elimina el margen inferior del último elemento de la lista */
+    }
+
+/* Estilos para la sección de Mis Intereses */
+
+
+.interes {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#misIntereses img {
+    width: 70%;
+    height: 200px;
+    margin: 20px;
+}
+
+#misIntereses p {
+    padding: 10px;
+}
+
+#misIntereses .interes {
+    margin-bottom: 30px;
+}
+
